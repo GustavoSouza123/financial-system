@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+/* header */
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: darkblue;
+    text-align: center;
+    color: #FFF;
+    padding-top: 30px;
+}
+
+/* conteúdo principal */
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+section {
+    width: 100%;
+    box-shadow: 0 0 5px #CCC;
+    border-radius: 10px;
+    padding: 20px 30px;
+    background-color: #FFF;
+}
+section:nth-child(2) {
+    margin: 20px 0;
+}
+
+/* área dos valores */
+
+.area-1 {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.area-1 div {
+    font-weight: bold;
+    height: 100%;
+}
+.area-1 div .title {
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.month-year {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+.month-year .btn {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    cursor: pointer;
+}
+.month-year .content {
+    height: 25px;
+    font-weight: normal;
+}
+
+/* área de inputs */
+
+.area-2 {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.area-2 input,
+.area-2 select {
+    width: 170px;
+    height: 30px;
+    outline: 0;
+    border: 1px solid #e1eaec;
+    border-radius: 5px;
+    padding: 0 5px;
+    transition: .3s;
+    cursor: pointer;
+}
+.ip-value input::placeholder {
+    color: #000;
+}
+
+.area-2 p {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.area-2 .btn-add {
+    width: 170px;
+    height: 30px;
+    background-color: #aed7e5;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* área do conteúdo principal */
+
+.area-3 {
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.area-3-header,
+.area-3-content {
+    width: 100%;
+}
+
+.area-3-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.area-3-header .header-1,
+.area-3-header .header-2 {
+    display: flex;
+}
+
+.area-3-header p {
+    font-weight: bold;
+}
+.h-date {
+    margin-right: 97px;
+}
+.h-category {
+    margin-right: 75px;
+}
+.h-value {
+    margin-right: 62px;
+}
+
+.area-3-content {
+    display: flex;
+    flex-direction: column;
+}
+.area-3-content .content {
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.area-3-content .content-1,
+.area-3-content .content-2 {
+    display: flex;
+}
+.content-2 {
+    width: 100px;
+}
+
+.c-date {
+    margin-right: 50px;
+}
+.c-category {
+    margin-right: 50px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    padding-top: 6px;
+    color: #DDD;
+    border-radius: 3px;
+}
+.c-span {
+    display: inline-block;
+    margin-left: 5px;
+}

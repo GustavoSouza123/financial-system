@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Financeiro</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <header>
+        <div class="header">
+            <h1>Sistema Financeiro</h1>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="area-1">
+                <div class="month-year">
+                    <div class="btn btn-left"></div>
+                    <div class="content"><span>Outubro</span> de 2021</div>
+                    <div class="btn btn-right"></div>
+                </div>
+                <div class="income">
+                    <p class="title">Receita</p>
+                    <p>R$ <span class="income-span">0</span></p>
+                </div>
+                <div class="expenditure">
+                    <p class="title">Despesa</p>
+                    <p>R$ <span class="expenditure-span">0</span></p>
+                </div>
+                <div class="balance">
+                    <p class="title">Balanço</p>
+                    <p class="balance-p">R$ <span class="balance-span" >0</span></p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="area-2">
+                <div class="ip-date">
+                    <p>Data</p>
+                    <input class="date" type="date" />
+                </div>
+                <div class="ip-category">
+                    <p>Categoria</p>
+                    <select>
+                        <option disabled selected></option>
+                        <option>Alimentação</option>
+                        <option>Aluguel</option>
+                        <option>Salário</option>
+                        <option>Outro</option>
+                    </select>
+                </div>
+                <div class="ip-title">
+                    <p>Título</p>
+                    <input class="title" type="text" />
+                </div>
+                <div class="ip-value">
+                    <p>Valor</p>
+                    <input class="value" type="number" placeholder="0" />
+                </div>
+                <div class="btn-add">Adicionar</div>
+            </div>
+        </section>
+
+        <section>
+            <div class="area-3">
+                <div class="area-3-header">
+                    <div class="header-1">
+                        <p class="h-date">Data</p>
+                        <p class="h-category">Categoria</p>
+                        <p class="h-title">Título</p>
+                    </div>
+                    <div class="header-2">
+                        <p class="h-value">Valor</p>
+                    </div>
+                </div>
+
+                <div class="area-3-content">
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>    
+</body>
+</html>
